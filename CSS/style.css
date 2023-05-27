@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+}
+nav.menu {
+    position: fixed;
+    width: 100%;
+}
+
+table{
+    margin: auto;
+}
+.Swordmaster {
+    font-family: 'Sans Comic Sans', sans-serif;
+    animation: colorRotate 3s linear 0s infinite;
+}
+
+.Royal {
+    font-family: 'Sans Comic Sans', sans-serif;
+    animation: colorRotate 3s linear 0s infinite;
+}
+
+.Gunslinger {
+    font-family: 'Sans Comic Sans', sans-serif;
+    animation: colorRotate 3s linear 0s infinite;
+}
+
+.Trickster {
+    font-family: 'Sans Comic Sans', sans-serif;
+    animation: colorRotate 3s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+    from {
+        color: black;
+    }
+
+    10% {
+        color: blue;
+    }
+
+    25% {
+        color: yellow;
+    }
+
+    50% {
+        color: green;
+    }
+
+    75% {
+        color: red;
+    }
+
+    100% {
+        color: black;
+    }
+}
